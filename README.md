@@ -3,12 +3,6 @@ Sub Standard, Corrected Substandard, and Euler Primes, pick a formula.
 
 License under Creative Commons No Derivatives Non-Commercial Open Source
 
-
----
-
-# 📝 **README.md (GitHub‑Ready)**
-
-```markdown
 # Tama Prime System
 
 The **Tama Prime System** is a hybrid analytic–discrete mathematical engine for modeling
