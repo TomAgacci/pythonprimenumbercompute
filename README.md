@@ -3,6 +3,27 @@ Sub Standard, Corrected Substandard, and Euler Primes, pick a formula.
 
 License under Creative Commons No Derivatives Non-Commercial Open Source
 
+# Default Files Tree
+
+├── tama_prime/
+│   ├── __init__.py
+│   ├── cli.py
+│   ├── formulas.py
+│   ├── plotting.py
+│   ├── optimize.py
+│   └── data/
+│
+├── tests/
+│   └── test_formulas.py
+│
+├── computeprime.py
+├── primeinfo
+├── README.md
+├── setup.py
+├── tama_prime.py
+├── pyproject.toml
+├── requirements.txt
+
 # Tama Prime System
 
 The **Tama Prime System** is a hybrid analytic–discrete mathematical engine for modeling
