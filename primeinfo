@@ -1,0 +1,122 @@
+# Tama Prime Formula Catalog
+A unified collection of analytic, corrective, and field‑based prime formulas used in the Tama Prime System.
+
+---
+
+## 1. Substandard Prime Formula
+**Type:** Analytic slope  
+**Definition:**
+P_sub(n) = floor( n( ln(n) + ln(ln(n)) – 1 ) + 1 )
+
+**Description:**  
+A smooth logarithmic approximation to the nth prime.  
+Forms the base slope of the Tama system.
+
+---
+
+## 2. Continuous Substandard Potential
+**Type:** Continuous field  
+**Definition:**
+P_sub*(x) = x( ln(x) + ln(ln(x)) – 1 ) + 1
+
+**Description:**  
+Continuous version of the Substandard Prime Formula (no floor).  
+Used for derivatives and calculus-based slope analysis.
+
+---
+
+## 3. Slope Correction Term
+**Type:** Discrete correction  
+**Definition:**
+Δ(n) = p_n – P_sub(n)
+
+**Description:**  
+Measures deviation between the analytic slope and the true primes.  
+Encodes prime irregularity.
+
+---
+
+## 4. Tama Prime Formula
+**Type:** Unified slope  
+**Definition:**
+T_prime(n) = P_sub(n) + Δ(n)
+
+**Description:**  
+Combines analytic slope + correction into one expression.  
+By definition equals the true prime p_n.
+
+---
+
+## 5. Tama Prime Field
+**Type:** Continuous field  
+**Definition:**
+T(x) = P_sub*(x) + C(x)
+
+**Description:**  
+Extends the Tama formula into a smooth field with a correction function C(x).
+
+---
+
+## 6. Tama Prime Slope (Derivative)
+**Type:** Differential slope  
+**Definition:**
+dT/dx = ln(x) + ln(ln(x)) + 1/ln(x) + C'(x)
+
+**Description:**  
+The continuous slope of the Tama field.  
+The first three terms are the analytic prime slope; C'(x) is the correction slope.
+
+---
+
+## 7. Tama Correction Ansatz
+**Type:** Parametric corrector  
+**Definition:**
+C(x) = a0 + a1/x
+
+**Description:**  
+A simple smooth model for the correction field used in energy minimization.
+
+---
+
+## 8. Tama Energy Functional
+**Type:** Variational principle  
+**Definition (discrete):**
+E(a0, a1) = Σ ( T(n) – p_n )²
+
+**Definition (continuous):**
+E[T] = ∫ ( T(x) – P_target(x) )² dx
+
+**Description:**  
+Measures how well the Tama field matches the true primes.  
+Minimizing this yields optimal correction parameters.
+
+---
+
+## 9. Euler–Lagrange Conditions (Parameter Form)
+**Type:** Optimization equations  
+**Definition:**
+∂E/∂a0 = 0  
+∂E/∂a1 = 0
+
+**Description:**  
+Determines the best correction field C(x) for a chosen prime range.
+
+---
+
+## 10. Euler’s p–1 Structure
+**Type:** Arithmetic structure  
+**Definition:** p – 1
+
+**Description:**  
+Exact discrete structure of primes via totients.  
+Contrasts with the smooth Tama slope.
+
+---
+
+## 11. Totient Parity Constraint
+**Type:** Modular restriction  
+**Definition:** φ(n) is even for all n ≥ 3
+
+**Description:**  
+Shows why odd primes cannot be totients of p–1.  
+Key difference from the Tama slope.
