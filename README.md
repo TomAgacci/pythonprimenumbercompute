@@ -3,6 +3,29 @@ Sub Standard, Corrected Substandard, and Euler Primes, pick a formula.
 
 License under Creative Commons No Derivatives Non-Commercial Open Source
 
+1. Easy installation
+Code
+make install
+make dev
+2. Run tests
+Code
+make test
+3. Use the CLI through Make
+Code
+make compute FORMULA=P_sub N=50
+make plot N=200 A0=0 A1=0
+make optimize N=300
+4. Build the package
+Code
+make build
+5. Publish to PyPI
+Code
+make publish
+6. Format & lint
+Code
+make format
+make lint
+
 # Default Files Tree
 
 ├── tama_prime/
