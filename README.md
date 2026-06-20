@@ -23,6 +23,7 @@ License under Creative Commons No Derivatives Non-Commercial Open Source
 ├── tama_prime.py
 ├── pyproject.toml
 ├── requirements.txt
+makefile
 
 # Tama Prime System
 
