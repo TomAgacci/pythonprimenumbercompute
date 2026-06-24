@@ -1,0 +1,2 @@
+def alt_totient(n):
+    return (n - 1) // math.gcd(n - 1, 10)
